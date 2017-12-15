@@ -90,6 +90,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
+TW_CRYPTO_USE_SYSTEM_VOLD := qseecomd
 
 #MultiROM config. MultiROM also uses parts of TWRP config
 MR_INPUT_TYPE := type_b
