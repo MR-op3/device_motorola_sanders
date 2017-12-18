@@ -95,6 +95,7 @@ TW_INCLUDE_CRYPTO := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 #MultiROM config. MultiROM also uses parts of TWRP config
+TW_USE_TOOLBOX := true
 MR_INPUT_TYPE := type_b
 MR_DEV_BLOCK_BOOTDEVICE := true
 MR_INIT_DEVICES := $(LOCAL_PATH)/multirom/mr_init_devices.c
