@@ -1,2 +1,12 @@
 [
+  {
+    "repository": "MR-op3/device_motorola_sanders",
+    "target_path": "device/motorola/sanders",
+    "branch": "mrn"
+  },
+  {
+    "repository": "CheckYourScreen/twrp_sanders_kernel",
+    "target_path": "kernel/motorola/msm8953",
+    "branch": "twrp"
+  },
 ]
