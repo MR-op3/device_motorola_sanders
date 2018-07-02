@@ -14,12 +14,6 @@
 # limitations under the License.
 #
 
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/tipsy/config/gsm.mk)
-
-# Inherit some common Tipsy stuff.
-$(call inherit-product, vendor/tipsy/config/common.mk)
-
 # Inherit Telephony packages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
